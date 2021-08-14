@@ -1,5 +1,6 @@
 body {
-  background-image: url(../images/background.jpg);
+  /* background-image: url(https://wallpaperaccess.com/full/1244688.jpg); */
+  background-image: url(../images/background1.jpg);
   background-size: 100%;
   margin: 0;
   padding: 0;
@@ -33,7 +34,7 @@ body {
   display: inline-block;
   position: absolute;
   right: 30px;
-  top: 22px;
+  top: 17px;
 }
 .navbar li {
   display: inline-block;
@@ -42,11 +43,11 @@ body {
 .navbar li a {
   color: white;
   text-decoration: none;
-  padding: 23px 19px;
+  padding: 0px 19px;
 }
 .navbar li a:hover,
 .navbar li a.active {
-  color: rgb(180, 166, 166);
+  color: red;
   text-decoration: underline;
 }
 .btn {
@@ -60,7 +61,7 @@ body {
   font-family: "Baloo Bhai 2", cursive;
 }
 .btn:hover {
-  background-color: rgb(54, 56, 47);
+  background-color: rgb(139, 43, 43);
 }
 .container{
     text-align: center;
